@@ -6,12 +6,14 @@ category: 定理
 ## 1. 平均値の定理
 
 関数$f(x)$が，$a \leq x \leq b$で連続であり，$a < x < b$で微分可能であれば十分，
+
 $$
 \begin{cases}
     \frac{f(b) - f(a)}{b - a} = f'(c) \\
     a < c < b
 \end{cases}
 $$
+
 を満たす実数$c$が存在する．
 
 ## 2. 直感的な説明

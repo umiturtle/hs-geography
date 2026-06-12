@@ -8,7 +8,7 @@ definePageMeta({
 });
 </script>
 
-<template lang='pug'>
+<template lang="pug">
 h1 ようこそ
 p このアプリは，高校数学の内容を辞書にまとめたものです．
 p 左の検索ボックスに何か入力してみてください．

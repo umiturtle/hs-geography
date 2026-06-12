@@ -93,12 +93,16 @@ const copyUrlScheme = () => {
           <!-- 区切りは <li my-1></li> で表記 -->
           <li>
             <NuxtLink to="/info/app/" custom v-slot="{ navigate }">
-              <button @click="close(), navigate()" role="link">このAppについて</button>
+              <button @click="(close(), navigate())" role="link">
+                このAppについて
+              </button>
             </NuxtLink>
           </li>
           <li>
             <NuxtLink to="/info/contents/" custom v-slot="{ navigate }">
-              <button @click="close(), navigate()" role="link">コンテンツの著作権</button>
+              <button @click="(close(), navigate())" role="link">
+                コンテンツの著作権
+              </button>
             </NuxtLink>
           </li>
 

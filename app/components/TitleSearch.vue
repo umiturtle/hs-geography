@@ -32,7 +32,7 @@ const filteredWords = computed(() => {
       <hr />
       <li w-full>
         <NuxtLink :to="word.actualPath" w-full flex justify-between>
-            {{ word.title }}
+          {{ word.title }}
           <template v-if="word.category">
             <span class="category" m-0 text-right>{{ word.category }}</span>
           </template>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useStorage } from '@vueuse/core'
+import { useStorage } from '@vueuse/core';
 
-const query = useStorage('dict-search-query', '')
+const query = useStorage('dict-search-query', '');
 const mode = useStorage('dict-search-mode', '見出し');
 </script>
 

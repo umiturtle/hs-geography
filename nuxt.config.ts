@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: '高校数学辞書',
+      title: '地理探求辞書',
       htmlAttrs: {
         lang: 'ja'
       }
@@ -17,10 +17,10 @@ export default defineNuxtConfig({
           langs: ['js', 'jsx', 'ts', 'tsx', 'svelte']
         },
         remarkPlugins: {
-          'remark-math': {},
+          'remark-math': {}
         },
         rehypePlugins: {
-          'rehype-katex': {},
+          'rehype-katex': {}
         }
       }
     }
