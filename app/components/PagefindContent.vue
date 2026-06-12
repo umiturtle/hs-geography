@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref, onMounted, watch } from 'vue';
-import { 結果なし, 検索中, 表示中 } from '~/var/msg.ts';
+import { 結果なし, 検索中, 表示中 } from '~/var/msg';
 
 // CSS
 import '~/assets/pagefindUi.scss';
@@ -22,7 +22,7 @@ let pagefind: any = null;
 
 // pageSize を削除
 const PAGEFIND_OPTIONS = {
-  bundlePath: 'https://math.hs.wing.osaka/content_search/',
+  bundlePath: 'https://geography.hs.dict.digital/content_search/',
   baseUrl: '/content/'
 };
 

@@ -5,7 +5,7 @@ const { data: post } = await useAsyncData(`dict-${slug}`, () => {
 });
 
 useSeoMeta({
-  title: post.value?.title + ' - 高校数学'
+  title: post.value?.title + ' - 地理探求'
 });
 
 definePageMeta({
