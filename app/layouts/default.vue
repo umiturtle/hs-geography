@@ -4,12 +4,14 @@ const route = useRoute();
 
 <template>
   <div class="root" m-0 p-0 flex flex-col>
+    <!-- menu on the screen top -->
     <div h-11 m-0 flex justify-between>
       <span></span>
       <Header />
       <Menu />
     </div>
     <div class="content" m-0 flex>
+      <!-- sidebar -->
       <div
         h-full
         class="sidebar"
@@ -21,6 +23,8 @@ const route = useRoute();
         <InfoList v-if="route.meta.sidebarContent === 'info'" />
         <SearchEntry v-else />
       </div>
+
+      <!-- content main -->
       <main
         h-full
         pb-3
@@ -30,6 +34,7 @@ const route = useRoute();
         :class="{ contentMain: route.meta.contentMain }"
       >
         <div h-8 w-full>
+          <!-- guide bar (title, return, menu, etc..) -->
           <div h-full w-full class="menuBar" flex justify-between items-center>
             <span w-15>
               <NuxtLink class="back" :to="route.meta.returnTo || '/'"
