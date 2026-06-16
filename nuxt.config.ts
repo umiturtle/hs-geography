@@ -32,7 +32,11 @@ export default defineNuxtConfig({
     'katex/dist/katex.min.css'
   ],
   devtools: { enabled: true },
-  modules: ['@nuxt/content', '@unocss/nuxt'],
+  modules: ['@nuxtjs/sitemap', '@nuxt/content', '@unocss/nuxt'],
+  site: {
+    url: 'https://geography.hs.dict.digital',
+    name: '地理探求'
+  },
   vite: {
     optimizeDeps: {
       include: ['@vue/devtools-core', '@vue/devtools-kit', '@vueuse/core']
