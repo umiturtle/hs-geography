@@ -32,10 +32,18 @@ export default defineNuxtConfig({
     'katex/dist/katex.min.css'
   ],
   devtools: { enabled: true },
+  experimental: {
+    defaults: {
+      nuxtLink: {
+        trailingSlash: 'append'
+      }
+    }
+  },
   modules: ['@nuxtjs/sitemap', '@nuxt/content', '@unocss/nuxt'],
   site: {
     url: 'https://geography.hs.dict.digital',
-    name: '地理探求'
+    name: '地理探求',
+    trailingSlash: true
   },
   vite: {
     optimizeDeps: {
