@@ -3,7 +3,7 @@ title: マラッカ海峡
 category: 地形
 ---
 
-マレー半島とスマトラ島を隔てる，全長900kmの海峡．
+マレー半島とスマトラ島を隔てる，全長900kmの[国際海峡](/content/strait/international/)．
 
 ![マラッカ海峡](/content_image/マラッカ海峡地図.png)
 
