@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: '地理探求辞書',
+      title: '地理探求 - dict.digital',
       htmlAttrs: {
         lang: 'ja'
       }
@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/sitemap', '@nuxt/content', '@unocss/nuxt'],
   site: {
     url: 'https://geography.hs.dict.digital',
-    name: '地理探求',
+    name: '地理探求 - dict.digital',
     trailingSlash: true
   },
   vite: {

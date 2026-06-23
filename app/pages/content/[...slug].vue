@@ -13,7 +13,7 @@ const { data: post } = await useAsyncData(`dict-${slugPath}`, () => {
 });
 
 useSeoMeta({
-  title: post.value?.title + ' - 地理探求'
+  title: post.value?.title + ' - 地理探求 - dict.digital'
 });
 
 definePageMeta({
@@ -90,6 +90,8 @@ route.meta.menuTitle = post.value?.title || 'Dictionary';
   padding: 0 4px;
   overflow-x: hidden;
   :deep() {
+    width: 100%;
+    display: flow-root;
     h2,
     h3,
     h4,
@@ -119,8 +121,6 @@ route.meta.menuTitle = post.value?.title || 'Dictionary';
     code {
       word-break: break-all;
     }
-    width: 100%;
-    display: flow-root;
   }
 }
 </style>
